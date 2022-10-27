@@ -18,7 +18,7 @@ Once the path to Chrome is specified, the code will automatically open the brows
 2. Install pip
 3. Install Selenium using pip
 4. Clone the repository
-5. Run the code by writing **python file.py** in a command prompt
+5. Run the code by writing **python file.py** in a command prompt 
 
 ## How to Use?
 1. Clone the repostory
