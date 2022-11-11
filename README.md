@@ -13,7 +13,7 @@ Python 3.10.6
 ## Features
 Once the path to Chrome driver is specified, the code will automatically open the browser. The code also make it possible to utilize environment variables. 
 
-## Installation
+## How to Use?
 1. Install Python 3
 2. Install pip
 3. If you're on Windows, add Google Chrome to your path
@@ -26,12 +26,6 @@ Once the path to Chrome driver is specified, the code will automatically open th
 10. Copy the path for the 'User Data' folder on you machine. For Windows users, it'll be something like the following (Make sure to change PLACE_HOLDER with the username on you machine): **C:\Users\<PLACE_HOLDER>\AppData\Local\Google\Chrome\User Data** For Mac users it will be soemthing like the following (Make sure to change PLACE_HOLDER with the username on you machine): **Users/<PLACE_HOLDER>/Library/Application Support/Google/Chrome/Default**
 11. Go to the command line and write the follwing (After replaceing PLACE_HOLDER with the 'User Data' folder path inside of double quotes): **chrome.exe --remote-debugging-port=9250 --user-data-dir=PLACE_HOLDER** For Windows users, it's necessary to add Chrome to the path for this command to work.
 12. Run the code by writing **python file.py** in the command line where in the path where the code is located
-
-## How to Use?
-1. Clone the repostory
-2. Download the necessary applications and libraries
-2. Replace **CHROME_PATH** with the path where Chorme Driver is installed on your machine.
-3. Run the code by running **python file.py** in a command prompt
 
 ## Code Style
 Standard
