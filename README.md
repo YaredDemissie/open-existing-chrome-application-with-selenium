@@ -2,7 +2,7 @@
 Connects to an existing chrome application
 
 ## Motivation
-This code is intended to make it possible to run Selenium commands on an existing. This makes it easier to use featuers such as password completion and page history.
+This code is intended to make it possible to run Selenium commands on an existing Chrome browser instead of a new instance of a Chrome Browser. Using an existing Chrome browser make it easier to use featuers such as password completion and page history. It also make it a lot easier to work with two-step authentication which can be difficult to deal with is there is a new browser instance with each code run. 
 
 ## Build Status
 At the moment this code runs without any bugs.
