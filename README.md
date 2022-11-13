@@ -25,7 +25,7 @@ Once the path to Chrome driver is specified, the code will automatically open th
 9. **Close all Chrome Browser windows that are open**
 10. Copy the path for the 'User Data' folder on you machine. For Windows users, it'll be something like the following (Make sure to change PLACE_HOLDER with the username on you machine): **C:\Users\<PLACE_HOLDER>\AppData\Local\Google\Chrome\User Data** For Mac users it will be soemthing like the following (Make sure to change PLACE_HOLDER with the username on you machine): **Users/<PLACE_HOLDER>/Library/Application Support/Google/Chrome/Default**
 11. Go to the command line and write the follwing (After replaceing PLACE_HOLDER with the 'User Data' folder path inside of double quotes): **chrome.exe --remote-debugging-port=9250 --user-data-dir=PLACE_HOLDER** For Windows users, it's necessary to add Chrome to the path for this command to work.
-12. Run the code by writing **python file.py** in the command line where in the path where the code is located
+12. Run the code by writing **python file.py** in the command line (in the path where the code is located)
 
 ## Code Style
 Standard
